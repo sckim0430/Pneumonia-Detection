@@ -1,0 +1,17 @@
+{
+    "TRAIN_IMAGES_DIR": "/home/hclee/DeepLearning_SCKIM/Pneumonia/data/train_images/orig/",
+    "TEST_IMAGES_DIR":  "/home/hclee/DeepLearning_SCKIM/Pneumonia/data/test_images/orig/",
+    "HEATMAP_DIR":"/home/hclee/DeepLearning_SCKIM/Pneumonia/data/heatmap/",
+    "HEATMAP_PREDICTION_DIR":"/home/hclee/DeepLearning_SCKIM/Pneumonia/data/prediction/",
+    "PREDICTION_DIR":"/home/hclee/DeepLearning_SCKIM/Pneumonia/data/prediction/",
+    "TRAIN_CSV_DIR":"/home/hclee/DeepLearning_SCKIM/Pneumonia/data/train.csv",
+    "TEST_CSV_DIR":"/home/hclee/DeepLearning_SCKIM/Pneumonia/data/test.csv",
+    "RETINANET_STRATIFIED_FOLDS_CSV_PATH":"/home/hclee/DeepLearning_SCKIM/Pneumonia/models/RetinaNet/data/stratified_folds_df.csv",
+    "RETINANET_FOLDS":1,
+    "RETINANET_CLASS_CSV_DIR":"/home/hclee/DeepLearning_SCKIM/Pneumonia/models/RetinaNet/data/class.csv",
+    "RETINANET_TRAIN_CSV_DIR":"/home/hclee/DeepLearning_SCKIM/Pneumonia/models/RetinaNet/data/fold{}_train_annotations.csv",
+    "RETINANET_VALIDATION_CSV_DIR":"/home/hclee/DeepLearning_SCKIM/Pneumonia/models/RetinaNet/data/fold{}_validation_annotations.csv",
+    "RETINANET_TRAIN_FILE_DIR":"/home/hclee/DeepLearning_SCKIM/Pneumonia/models/RetinaNet/keras_retinanet/bin/train_kaggle.py",
+    "RETINANET_SNAPSHOT_DIR":"/home/hclee/DeepLearning_SCKIM/Pneumonia/models/RetinaNet/output/fold{}/",
+    "RETINANET_MODEL_DIR":"/home/hclee/DeepLearning_SCKIM/Pneumonia/models/RetinaNet/output/"
+}
