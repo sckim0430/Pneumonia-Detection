@@ -56,7 +56,8 @@ $ python ./src/eval/Retinanet/Eval_Retinanet.py
 
 ## Visualization
    
-[GradCam_Retinanet.py](https://github.com/sckim0430/Pneumonia-Detection/blob/master/src/infer/GradCam_Retinanet.py)을 수정하거나 [visualization.sh](https://github.com/sckim0430/Pneumonia-Detection/blob/master/evaluate.sh)을 실행합니다.   
+Modify [GradCam_Retinanet.py](https://github.com/sckim0430/Pneumonia-Detection/blob/master/src/infer/GradCam_Retinanet.py) or [visualization.sh](https://github.com/sckim0430/Pneumonia-Detection/blob/master/evaluate.sh).
+   
     
 ```bash
 $ sh visualization.sh
