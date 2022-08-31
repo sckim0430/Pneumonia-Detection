@@ -4,12 +4,12 @@
    
 ## Description
    
-이 저장소는 **Kaggle RSNA Challenge**인 AI를 통한 **Pneumonia Detection** 문제를 해결하는 것을 목표로 합니다.   
-Kaggle RSNA에서 주어진 데이터셋을 활용하여 **전처리, 학습, 시각화(GradCam) 및 검출**을 진행했습니다.   
-   
+This repository aims to solve the problem of **Pneumonia Detection** via AI which is the **Kaggle RSNA Challenge**.   
+We performed **preprocessing, training, visualization (GradCam) and detection** using the given dataset in Kaggle RSNA.   
+<br></br>
 ## Requirement
     
-Python 3.6 및 keras 2.2.4, tensorflow-gpu 1.14.0이 필요하며, [Retinanet](https://github.com/fizyr/keras-retinanet)을 Cumtom하여 구현했습니다.   
+Requires Python 3.6 and keras 2.2.4, tensorflow-gpu 1.14.0, implemented by Cumtom [Retinanet](https://github.com/fizyr/keras-retinanet).
    
 ```bash
 $ pip install -r requirements.txt
@@ -17,9 +17,9 @@ $ pip install -r requirements.txt
    
 ## Custom Dataset   
    
-1. 먼저 [SETTINGS.json](https://github.com/sckim0430/Pneumonia-Detection/blob/master/SETTINGS.json)파일을 개인 환경에 맞게 수정해줍니다.   
-2. ./data/ 폴더에 [Kaggle RSNA DataSet](https://www.kaggle.com/c/rsna-pneumonia-detection-challenge/)을 저장합니다.   
-3. [prepare_data.sh](https://github.com/sckim0430/Pneumonia-Detection/blob/master/prepare_data.sh)을 실행합니다.   
+1. First, edit the [SETTINGS.json](https://github.com/sckim0430/Pneumonia-Detection/blob/master/SETTINGS.json) file to suit your personal environment.
+2. Save [Kaggle RSNA DataSet](https://www.kaggle.com/c/rsna-pneumonia-detection-challenge/) in ./data/ folder.   
+3. Run [prepare_data.sh](https://github.com/sckim0430/Pneumonia-Detection/blob/master/prepare_data.sh).   
 
 ```bash
 $ sh prepare_data.sh
@@ -27,7 +27,8 @@ $ sh prepare_data.sh
 
 ## Train
    
-[Retinanet.py](https://github.com/sckim0430/Pneumonia-Detection/blob/master/src/train/Retinanet/Retinanet.py)를 수정하거나 [train.sh](https://github.com/sckim0430/Pneumonia-Detection/blob/master/train.sh)을 실행합니다.
+Modify [Retinanet.py](https://github.com/sckim0430/Pneumonia-Detection/blob/master/src/train/Retinanet/Retinanet.py) or [train.sh](https://github.com/sckim0430/Pneumonia-Detection/blob/master/train.sh).
+
 
 ```bash
 $ sh train.sh
@@ -41,7 +42,7 @@ $ python ./src/train/Retinanet/Retinanet.py
 
 ## Evaluation
 
-[Eval_Retinanet.py](https://github.com/sckim0430/Pneumonia-Detection/blob/master/evaluate.sh)을 수정하거나 [evaluate.sh](https://github.com/sckim0430/Pneumonia-Detection/blob/master/evaluate.sh)을 실행합니다.   
+Modify [Eval_Retinanet.py](https://github.com/sckim0430/Pneumonia-Detection/blob/master/evaluate.sh) or [evaluate.sh](https://github.com/sckim0430/Pneumonia-Detection/blob/master/evaluate.sh).
     
 ```bash
 $ sh evaluate.sh
@@ -55,7 +56,7 @@ $ python ./src/eval/Retinanet/Eval_Retinanet.py
 
 ## Visualization
    
-[GradCam_Retinanet.py](https://github.com/sckim0430/Pneumonia-Detection/blob/master/src/infer/GradCam_Retinanet.py)을 수정하거나 [visualization.sh](https://github.com/sckim0430/Pneumonia-Detection/blob/master/visualization.sh)을 실행합니다.   
+[GradCam_Retinanet.py](https://github.com/sckim0430/Pneumonia-Detection/blob/master/src/infer/GradCam_Retinanet.py)을 수정하거나 [visualization.sh](https://github.com/sckim0430/Pneumonia-Detection/blob/master/evaluate.sh)을 실행합니다.   
     
 ```bash
 $ sh visualization.sh
